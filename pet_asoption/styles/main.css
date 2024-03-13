@@ -1,0 +1,104 @@
+/* 全局样式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    margin-top: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10;
+    background-color: #f0e1bb;
+}
+
+p{
+    margin-left: 5%;
+    margin-right: 20%;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* 导航栏样式 */
+.navbar {
+    background-color: #ff9a3c;
+    color: #fff;
+    padding: 15px 0;
+    padding-left: 1%;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.index_image{
+    text-align: center;
+}
+
+/* 标题样式 */
+h1,
+h2,
+h3 {
+    color: #155263;
+    background-color: #ffc93c;
+    height: 50px;
+    margin-top:0;
+    margin-bottom: 0;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+/* 按钮样式 */
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* 细化处理 */
+
+/* 宠物列表页面 */
+.pet-list {
+    /* 添加针对宠物列表页面的样式 */
+}
+
+/* 宠物详情页面 */
+.pet-detail {
+    /* 添加针对宠物详情页面的样式 */
+}
+
+/* 宠物收养申请页面 */
+.adoption-form {
+    /* 添加针对宠物收养申请页面的样式 */
+}
+
+/* 关于我们页面 */
+.about-us {
+    /* 添加针对关于我们页面的样式 */
+}
+
+/* 联系页面 */
+.contact {
+    /* 添加针对联系页面的样式 */
+}
+
+/* 帮助页面 */
+.help {
+    /* 添加针对帮助页面的样式 */
+}
