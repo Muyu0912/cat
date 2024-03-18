@@ -7,11 +7,12 @@ body {
     margin-right: 5%;
     padding: 10;
     background-color: #f0e1bb;
+    
 }
 
 p{
     margin-left: 5%;
-    margin-right: 20%;
+    margin-right: 5%;
 }
 
 .container {
@@ -73,6 +74,35 @@ h3 {
     text-decoration: none;
     border-radius: 5px;
 }
+
+.cat_s ul {
+    
+    list-style-type: none;
+    padding: 5%;
+}
+
+.cat_s li {
+    margin-bottom: 20px;
+    overflow: hidden; /* 清除浮动 */
+}
+
+.cat_s li img {
+    float: left; /* 图片浮动到左边 */
+    margin-right: 2%; /* 图片右边距 */
+    max-width: 50%; /* 图片最大宽度为容器的一半 */
+}
+
+
+
+.cat_s li p {
+    font-size:150%;
+    margin-top: 5%; /* 去掉段落顶部边距 */
+}
+
+.cat_s li div img {
+    max-width: 100%; /* 图片最大宽度为容器宽度 */
+}
+
 
 /* 细化处理 */
 
