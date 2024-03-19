@@ -25,10 +25,10 @@ p{
 .navbar {
     background-color: #ff9a3c;
     color: #fff;
-    padding: 15px 0;
+    padding: 1% 0;
     padding-left: 1%;
     text-align: center;
-    font-size: 150%;
+    font-size: 110%;
     
 }
 
@@ -53,53 +53,108 @@ p{
 }
 
 /* 标题样式 */
-h1,
-h2,
-h3 {
+h1{
     color: #155263;
     background-color: #ffc93c;
-    height: 50px;
+    height: 30%;
     margin-top:0;
     margin-bottom: 0;
     padding-left: 1%;
     padding-top: 1%;
+    padding: 1.5% 1.5%;
+    font-size:300%;
+    
 }
+
+h2,
+h3 {
+    color: #155263;
+    background-color: #ffc93c;
+    height: 20%;
+    margin-top:0;
+    margin-bottom: 0;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding: 1% 1%;
+    
+}
+
+
+
 
 /* 按钮样式 */
 .btn {
     display: inline-block;
     background-color: #333;
     color: #fff;
-    padding: 10px 20px;
+    padding: 1% 1%;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 1%;
 }
 
-.cat_s ul {
+
+.IMG_L {
+    margin-top: 1%;
+    margin-bottom: 1%; /* 添加每个 div 之间的垂直间距 */
+}
+
+.IMG_L ul {
     
     list-style-type: none;
-    padding: 5%;
+    padding: 1%;
+    
 }
 
-.cat_s li {
-    margin-bottom: 20px;
+.IMG_L li {
+    margin-bottom: 5%;
     overflow: hidden; /* 清除浮动 */
 }
 
-.cat_s li img {
+.IMG_L li img {
     float: left; /* 图片浮动到左边 */
-    margin-right: 2%; /* 图片右边距 */
+    margin-right: 3%; /* 图片右边距 */
     max-width: 50%; /* 图片最大宽度为容器的一半 */
 }
 
 
 
-.cat_s li p {
-    font-size:150%;
-    margin-top: 5%; /* 去掉段落顶部边距 */
+.IMG_L li p {
+    font-size:100%;
+    margin-top: 3%; /* 去掉段落顶部边距 */
 }
 
-.cat_s li div img {
+.IMG_L li div img {
+    max-width: 100%; /* 图片最大宽度为容器宽度 */
+}
+
+
+.IMG_R {
+    margin-top: 1%;
+    margin-bottom: 1%; /* 添加每个 div 之间的垂直间距 */
+}
+
+.IMG_R ul{
+    list-style-type: none;
+    padding: 1%;
+}
+
+.IMG_R li{
+    margin-top: 5%;
+    overflow: hidden;
+}
+
+.IMG_R li img{
+    float: right;
+    margin-left: 3%;
+    max-width: 50%;
+}
+
+.IMG_R li p {
+    font-size:100%;
+    margin-top: 3%; /* 去掉段落顶部边距 */
+}
+
+.IMG_R li div img {
     max-width: 100%; /* 图片最大宽度为容器宽度 */
 }
 
