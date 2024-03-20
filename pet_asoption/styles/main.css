@@ -66,10 +66,21 @@ h1{
     
 }
 
-h2,
-h3 {
+h2{
     color: #155263;
     background-color: #ffc93c;
+    height: 20%;
+    margin-top:0;
+    margin-bottom: 0;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding: 1% 1%;
+    
+}
+
+h3 {
+    color: #155263;
+    
     height: 20%;
     margin-top:0;
     margin-bottom: 0;
@@ -160,6 +171,10 @@ h3 {
 
 
 
+
+
+
+
 .flex-container {
     display: flex; /* 将容器设置为 Flexbox 布局 */
     list-style-type: none; /* 去除列表样式 */
@@ -182,10 +197,16 @@ h3 {
 }
 
 
-.Events_r li {
+.hid_point li {
     overflow: hidden;
     list-style-type: none; /* 隐藏列表项前面的圆点 */
 }
+
+.hid_point strong {
+    color: #155263; /* 设置强调段落的颜色 */
+}
+
+
 
 
 /* 细化处理 */
