@@ -7,18 +7,26 @@ body {
     margin-right: 5%;
     padding: 10;
     background-color: #f0e1bb;
-    /* Set the overall page style, including fonts, margins, inner margins and background color */
+}
 
+@media screen and (max-width: 600px) {
+    body {
+        padding: 1%;
+    }
+
+    p {
+        font-size: smaller;
+    }
 }
 
 p {
     margin-left: 5%;
     margin-right: 20%;
-    /* Set paragraph style, left and right margins */
+
 }
 
-.logo{
-    position:fixed;
+.logo {
+    position: fixed;
     left: 0%;
     top: 45%;
 }
@@ -27,10 +35,10 @@ p {
     width: 80%;
     margin: 0 auto;
     overflow: hidden;
-    /* Setting container style, width, centering and overflow handling */
+
 }
 
-/* Navigation bar style */
+/*  Set the appearance of the navigation bar, including background, word colour, indentation, and centering */
 .navbar {
     background-color: #ff9a3c;
     color: #fff;
@@ -38,42 +46,47 @@ p {
     padding-left: 1%;
     text-align: center;
     font-size: 110%;
-/* Set navigation bar background color, text color and inner margin */
+
 }
 
+/*Here are the details about the settings in the navigation bar*/
 .navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    /* Clear list styles and inner margins */
+
 }
 
 .navbar ul li {
     display: inline;
     margin-right: 20px;
-    /* Set navigation bar list item style, in-line display and right margin */
+
 }
 
 .navbar ul li a {
     color: #fff;
     text-decoration: none;
-    /* Set navigation bar link style, color and remove underline */
+
 }
 
+/*Home Page Image Setting*/
 .index_image {
     text-align: center;
-    /* Setting the home page image to be centered */
+
 }
 
-/* Title style */
-h1, h2, h3 {
-    color: #155263; /* Set color for headings */
+/* Title settings, including colour, position, background, etc. */
+h1,
+h2,
+h3 {
+    color: #155263;
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 1%;
     padding-top: 1%;
 }
 
+/*Here are the headings for the different classes to do the detail settings*/
 h1 {
     background-color: #ffc93c;
     height: 30%;
@@ -103,56 +116,48 @@ h3 {
     padding: 1% 1%;
     text-decoration: none;
     border-radius: 1%;
-    /* Set button style, inline block display, background color, text color, padding and border radius */
+
 }
 
-
+/*Setting for left and right placed images*/
 .IMG_L,
 .IMG_R {
     margin-top: 1%;
     margin-bottom: 1%;
-    /* Add vertical spacing between each div */
 }
 
-.IMG_L ul,
-.IMG_R ul{
 
+.IMG_L ul,
+.IMG_R ul {
     list-style-type: none;
     padding: 1%;
-/* Clear list styles and padding */
 }
 
 .IMG_L li,
 .IMG_R li {
     margin-bottom: 5%;
     overflow: hidden;
-    /* Clear floats */
 }
 
 .IMG_L li img,
 .IMG_R li img {
     margin-right: 3%;
-    /* Image right margin */
     max-width: 50%;
-    /* Set max width for image to half of container */ 
 }
 
 .IMG_L li p,
-.IMG_R li p  {
+.IMG_R li p {
     font-size: 100%;
     margin-top: 3%;
-    /* Remove top margin of paragraph */
 }
 
 .IMG_L li div img,
 .IMG_R li div img {
     max-width: 100%;
-    /* Set max width for image to container width */
 }
 
 .IMG_L li img {
     float: left;
-    /* Float images to the left */
 }
 
 .IMG_R li img {
@@ -160,30 +165,23 @@ h3 {
 }
 
 
-
+/*This paragraph focuses on the About Us page*/
 .flex-container {
     display: flex;
-    /* Set container to Flexbox layout */
     list-style-type: none;
-    /* Remove list styles */
     padding: 0;
-    /* Remove padding */
+
 }
 
 .flex-item {
     flex: 1;
-    /* Distribute equal space to each item */
     margin: 0 10px;
-    /* Adjust spacing between items as needed */
 }
 
 .flex-item img {
     width: 100%;
-    /* Set image width to container width */
     height: 100%;
-    /* Set image height to container height */
     object-fit: cover;
-     /* Fill image in container and maintain aspect ratio, may crop some parts */
 }
 
 .flex-item figcaption {
@@ -191,27 +189,27 @@ h3 {
 }
 
 
-
+/*A setting specifically for li, mainly to hide the little black dot in front of the*/
 .hid_point li {
     overflow: hidden;
     list-style-type: none;
-    /* Hide bullet points before list items */
+
 }
 
+/*This paragraph is mainly aimed at making the text displayed by hyperlinks black.*/
 .hid_point a {
     color: black;
 }
 
 .hid_point strong {
     color: #155263;
-    /* Set color for emphasized paragraphs */
 }
 
 .About li {
     overflow: hidden;
 }
 
-
+/*This paragraph is mainly for the Volunteer page and the Support Us page*/
 .flex-item_A h3,
 .flex-item_A p {
     text-align: center;
@@ -228,43 +226,7 @@ h3 {
     display: block;
     margin: 0 auto;
     width: 50%;
-    /* Set image width to container width */
     height: auto;
-    /* Set image height to container height */
-
-}
 
 
-
-
-/* 细化处理 */
-
-/* 宠物列表页面 */
-.pet-list {
-    /* 添加针对宠物列表页面的样式 */
-}
-
-/* 宠物详情页面 */
-.pet-detail {
-    /* 添加针对宠物详情页面的样式 */
-}
-
-/* 宠物收养申请页面 */
-.adoption-form {
-    /* 添加针对宠物收养申请页面的样式 */
-}
-
-/* 关于我们页面 */
-.about-us {
-    /* 添加针对关于我们页面的样式 */
-}
-
-/* 联系页面 */
-.contact {
-    /* 添加针对联系页面的样式 */
-}
-
-/* 帮助页面 */
-.help {
-    /* 添加针对帮助页面的样式 */
 }
