@@ -1,4 +1,4 @@
-/* 全局样式 */
+/* Global style */
 body {
     font-family: Arial, sans-serif;
     margin: 10;
@@ -7,21 +7,24 @@ body {
     margin-right: 5%;
     padding: 10;
     background-color: #f0e1bb;
+    /* Set the overall page style, including fonts, margins, inner margins and background color */
 
 }
 
 p {
     margin-left: 5%;
     margin-right: 20%;
+    /* Set paragraph style, left and right margins */
 }
 
 .container {
     width: 80%;
     margin: 0 auto;
     overflow: hidden;
+    /* Setting container style, width, centering and overflow handling */
 }
 
-/* 导航栏样式 */
+/* Navigation bar style */
 .navbar {
     background-color: #ff9a3c;
     color: #fff;
@@ -29,71 +32,64 @@ p {
     padding-left: 1%;
     text-align: center;
     font-size: 110%;
-
+/* Set navigation bar background color, text color and inner margin */
 }
 
 .navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    /* Clear list styles and inner margins */
 }
 
 .navbar ul li {
     display: inline;
     margin-right: 20px;
+    /* Set navigation bar list item style, in-line display and right margin */
 }
 
 .navbar ul li a {
     color: #fff;
     text-decoration: none;
+    /* Set navigation bar link style, color and remove underline */
 }
 
 .index_image {
     text-align: center;
+    /* Setting the home page image to be centered */
 }
 
-/* 标题样式 */
-h1 {
-    color: #155263;
-    background-color: #ffc93c;
-    height: 30%;
+/* Title style */
+h1, h2, h3 {
+    color: #155263; /* Set color for headings */
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 1%;
     padding-top: 1%;
+}
+
+h1 {
+    background-color: #ffc93c;
+    height: 30%;
     padding: 1.5% 1.5%;
     font-size: 300%;
-
 }
 
 h2 {
-    color: #155263;
     background-color: #ffc93c;
     height: 20%;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 1%;
-    padding-top: 1%;
     padding: 1% 1%;
-
 }
 
 h3 {
-    color: #155263;
-
     height: 20%;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 1%;
-    padding-top: 1%;
     padding: 1% 1%;
-
 }
 
 
 
 
-/* 按钮样式 */
+/* Button styles */
 .btn {
     display: inline-block;
     background-color: #333;
@@ -101,113 +97,87 @@ h3 {
     padding: 1% 1%;
     text-decoration: none;
     border-radius: 1%;
+    /* Set button style, inline block display, background color, text color, padding and border radius */
 }
 
 
-.IMG_L {
+.IMG_L,
+.IMG_R {
     margin-top: 1%;
     margin-bottom: 1%;
-    /* 添加每个 div 之间的垂直间距 */
+    /* Add vertical spacing between each div */
 }
 
-.IMG_L ul {
+.IMG_L ul,
+.IMG_R ul{
 
     list-style-type: none;
     padding: 1%;
-
+/* Clear list styles and padding */
 }
 
-.IMG_L li {
+.IMG_L li,
+.IMG_R li {
     margin-bottom: 5%;
     overflow: hidden;
-    /* 清除浮动 */
+    /* Clear floats */
+}
+
+.IMG_L li img,
+.IMG_R li img {
+    margin-right: 3%;
+    /* Image right margin */
+    max-width: 50%;
+    /* Set max width for image to half of container */ 
+}
+
+.IMG_L li p,
+.IMG_R li p  {
+    font-size: 100%;
+    margin-top: 3%;
+    /* Remove top margin of paragraph */
+}
+
+.IMG_L li div img,
+.IMG_R li div img {
+    max-width: 100%;
+    /* Set max width for image to container width */
 }
 
 .IMG_L li img {
     float: left;
-    /* 图片浮动到左边 */
-    margin-right: 3%;
-    /* 图片右边距 */
-    max-width: 50%;
-    /* 图片最大宽度为容器的一半 */
-}
-
-
-
-.IMG_L li p {
-    font-size: 100%;
-    margin-top: 3%;
-    /* 去掉段落顶部边距 */
-}
-
-.IMG_L li div img {
-    max-width: 100%;
-    /* 图片最大宽度为容器宽度 */
-}
-
-
-.IMG_R {
-    margin-top: 1%;
-    margin-bottom: 1%;
-    /* 添加每个 div 之间的垂直间距 */
-}
-
-.IMG_R ul {
-    list-style-type: none;
-    padding: 1%;
-}
-
-.IMG_R li {
-    margin-top: 5%;
-    overflow: hidden;
+    /* Float images to the left */
 }
 
 .IMG_R li img {
     float: right;
-    margin-left: 3%;
-    max-width: 50%;
 }
-
-.IMG_R li p {
-    font-size: 100%;
-    margin-top: 3%;
-    /* 去掉段落顶部边距 */
-}
-
-.IMG_R li div img {
-    max-width: 100%;
-    /* 图片最大宽度为容器宽度 */
-}
-
-
-
-
 
 
 
 .flex-container {
     display: flex;
-    /* 将容器设置为 Flexbox 布局 */
+    /* Set container to Flexbox layout */
     list-style-type: none;
-    /* 去除列表样式 */
+    /* Remove list styles */
     padding: 0;
-    /* 去除内边距 */
+    /* Remove padding */
 }
 
 .flex-item {
     flex: 1;
-    /* 分配相同的空间给每个项目 */
+    /* Distribute equal space to each item */
     margin: 0 10px;
-    /* 可以根据需要调整项目之间的间距 */
+    /* Adjust spacing between items as needed */
 }
 
 .flex-item img {
     width: 100%;
-    /* 将图片宽度设置为容器的宽度 */
+    /* Set image width to container width */
     height: 100%;
-    /* 将图片高度设置为容器的高度 */
+    /* Set image height to container height */
     object-fit: cover;
-    /* 将图片填充到容器中，并保持其原始宽高比，可能会裁剪部分图片 */
+     /* Fill image in container and maintain aspect ratio, may crop some parts */
 }
 
 .flex-item figcaption {
@@ -218,18 +188,19 @@ h3 {
 .hid_point li {
     overflow: hidden;
     list-style-type: none;
-    /* 隐藏列表项前面的圆点 */
+    /* Hide bullet points before list items */
 }
-.hid_point a{
+
+.hid_point a {
     color: black;
 }
 
 .hid_point strong {
     color: #155263;
-    /* 设置强调段落的颜色 */
+    /* Set color for emphasized paragraphs */
 }
 
-.About li{
+.About li {
     overflow: hidden;
 }
 
@@ -240,8 +211,8 @@ h3 {
 }
 
 .flex-item_A p {
-   margin-left: 0%;
-   margin-right: auto;
+    margin-left: 0%;
+    margin-right: auto;
 
 }
 
@@ -249,8 +220,10 @@ h3 {
 .flex-item_A img {
     display: block;
     margin: 0 auto;
-    width: 50%;/* 将图片宽度设置为容器的宽度 */
-    height: auto;/* 将图片高度设置为容器的高度 */
+    width: 50%;
+    /* Set image width to container width */
+    height: auto;
+    /* Set image height to container height */
 
 }
 
