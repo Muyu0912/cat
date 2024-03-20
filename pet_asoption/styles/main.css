@@ -17,6 +17,12 @@ p {
     /* Set paragraph style, left and right margins */
 }
 
+.logo{
+    position:fixed;
+    left: 0%;
+    top: 45%;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -183,6 +189,7 @@ h3 {
 .flex-item figcaption {
     text-align: center;
 }
+
 
 
 .hid_point li {
